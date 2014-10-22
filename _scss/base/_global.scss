@@ -85,7 +85,8 @@ ul li { list-style-type: circle; }
 ol li { list-style-type: decimal; }
 
 a { 
-  color: $link-color; 
+  color: $link-color;
+  text-decoration: none;
   &:hover {
     color: $text-color;
   }
