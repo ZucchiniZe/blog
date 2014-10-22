@@ -17,7 +17,7 @@ Since express 4.0 a lot of the middleware is not located under the main express 
 * `express.bodyParser()` -> `bodyParser()`
 * `express.favicon()` -> `serve-favicon()`
 * `express.logger()` -> `morgan()`
-* and so on
+and so on
 
 (This is not the complete list [here is the complete list](https://github.com/senchalabs/connect#middleware))
 
