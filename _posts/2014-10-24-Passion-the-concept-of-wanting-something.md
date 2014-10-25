@@ -2,7 +2,6 @@
 layout: post
 title: "Passion: The concept of wanting something"
 summary: Passion, you want something so bad you will do anything for it.
-status: draft
 ---
 
 
