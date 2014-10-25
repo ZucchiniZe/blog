@@ -28,6 +28,12 @@
       padding: 0 $spacing-s;
       transition: all .2s ease;
       -webkit-transition: all .2s ease;
+      &:first-child {
+        padding-right: 13px;
+      }
+      &:last-child {
+        padding-left: 13px;
+      }
       @media (max-width: 642px) {
         font-size: 150%;
       }
