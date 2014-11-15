@@ -20,8 +20,8 @@ github: ZucchiniZe
 
 # Google Analytics (you may want to changes these with yours or even delete :)
 
-ga_domain:
-ga_tracking_id:
+ga_domain: "auto"
+ga_tracking_id: "UA-44161537-5"
 
 # Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
 
