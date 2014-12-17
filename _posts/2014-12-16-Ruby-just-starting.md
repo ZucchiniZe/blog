@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ruby
+title: "Ruby, just starting"
 ---
 
 ![Ruby Logo](https://d13yacurqjgara.cloudfront.net/users/26222/screenshots/1395942/ruby2.gif)
