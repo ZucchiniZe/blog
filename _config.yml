@@ -20,10 +20,8 @@ twitter: ZucchiniZe
 github: ZucchiniZe
 githuburl: http://github.com/ZucchiniZe/blog
 
-# Google Analytics (you may want to changes these with yours or even delete :)
-
-ga_domain: "auto"
-ga_tracking_id: "UA-44161537-5"
+# Analytics
+segment_key: "gavGcxDFOuUa5eqYoQ6ieHGllSQUptXv"
 
 # Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
 
