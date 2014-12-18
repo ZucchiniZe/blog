@@ -16,10 +16,10 @@ layout: default
       {{ content }}
     </div>
     <div class="feat share">
-      <a href="http://twitter.com/share" class="popup">
+      <a href="http://twitter.com/share" class="popup" title="Share on twitter" onclick="analytics.track('Shared on twitter')">
         <span class="icon-twitter"></span>
       </a>
-      <a href="http://github.com/zucchinize/blog/tree/gh-pages/{{ page.path }}" class="popup">
+      <a href="http://github.com/zucchinize/blog/tree/gh-pages/{{ page.path }}" class="popup" title="Edit on GitHub" onclick="analytics.track('Clicked Edit on GitHub')">
         <span class="icon-github"></span>
       </a>
     </div>
