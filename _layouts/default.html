@@ -52,6 +52,8 @@
       </footer>
 
     </div>
+    {% comment %} site-wrapper {% endcomment %}
+    <script src="{{ site.baseurl }}/js/main.js"></script>
 
     {% comment %} Segment Analytics {% endcomment %}
     {% if site.segment_key %}
@@ -60,6 +62,12 @@
         analytics.load("{{ site.segment_key }}");
         analytics.page()
       }}();
+    </script>
+    {% endif %}
+
+    {% if page.title != "Homepage" %}
+    <script type="text/javascript" charset="utf-8">
+      analytics.track('Viewed Post', {title: '{{ page.title }}'})
     </script>
     {% endif %}
 
