@@ -2,7 +2,7 @@
 name: "Alex's Blog"
 
 # Description of your content (will only be used on Google Search)
-description: "Meteor, node, express"
+description: "Ruby, sinatra, javscript: All the funs"
 
 # Your name. Will show in your footer + sidebar 
 author: "Alex B"
@@ -12,7 +12,7 @@ url: "http://zucchinize.github.io"
 baseurl: "/blog"
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words. 
-author-bio: "I am a human who goes to high school who also likes to create small trinkets for the web using Meteor."
+author-bio: "I am a human who goes to high school who also likes to create small trinkets for the web using ruby and sinatra."
 
 # Social Accounts (mine, as placeholders)
 
@@ -32,7 +32,7 @@ permalink: /:month/:day/:title
 highlighter: pygments
 
 paginate: 10
-paginate_path: "/page/:num"
+paginate_path: "/p/:num"
 
 # SCSS
 
