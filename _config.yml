@@ -1,29 +1,17 @@
-# Title of your blog; shows in the header
 name: "Alex's Blog"
-
-# Description of your content (will only be used on Google Search)
 description: "Ruby, sinatra, javscript: All the funs"
-
-# Your name. Will show in your footer + sidebar 
 author: "Alex B"
 nick: "ZucchiniZe"
+author-bio: "I am a human who goes to high school who also likes to create small trinkets for the web using nodejs, react, ruby and sinatra."
 
 url: "https://alexb.ninja"
 baseurl: "/blog"
-
-# A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words. 
-author-bio: "I am a human who goes to high school who also likes to create small trinkets for the web using ruby and sinatra."
-
-# Social Accounts (mine, as placeholders)
 
 twitter: ZucchiniZe
 github: ZucchiniZe
 githuburl: http://github.com/ZucchiniZe/blog
 
-# Analytics
 segment_key: "gavGcxDFOuUa5eqYoQ6ieHGllSQUptXv"
-
-# Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
 
 markdown: kramdown
 kramdown:
@@ -34,13 +22,10 @@ highlighter: pygments
 paginate: 10
 paginate_path: "/p/:num"
 
-# SCSS
-
 sass:
   sass_dir: _scss
   style: :compressed
 
-# Gems
 gems:
   - jemoji
   - jekyll-sitemap
