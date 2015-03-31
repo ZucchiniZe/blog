@@ -5,21 +5,21 @@ title: 'React and Flux (alt)'
 
 ![React Logo](https://i.imgur.com/xKBOIT5.png)
 
-I have recently learned how to use [React](https://facebook.github.io/react) and [flux (alt)][alt] to make some applications such as [a realtime  chat](https://github.com/ZucchiniZe/react-chat) and [flux example](https://github.com/ZucchiniZe/flux-people).
+I have recently learned how to use [React](https://facebook.github.io/react) and [flux (alt)][alt] to make some applications such as [a realtime  chat](https://github.com/ZucchiniZe/react-chat) and [flux people](https://github.com/ZucchiniZe/flux-people).
 
-Even though I say this for most frameworks that I start to learn and use; React is one of the best libraries on the web right now.
+Even though I say this for most frameworks that I start to learn and use; React is one of the best libraries on the web.
 
 # React
 
 First of all lets talk about react and how awesome it is and how it works.
 
-In my opinion, the reason why so many people love using react is how fast it is. The reason it is so fast is its **Virtual DOM**. Another reason why people like it so much is its **component architecture**.
+In my opinion, the reason why so many people love using react is how fast it is. The reason it is so fast is its **Virtual DOM** and **component architecture**.
 
 ## The Virtual DOM
 
-The Virtual DOM is like the native DOM but replicated in memory so you can diff it with the real DOM and only replace the changed items.
+The Virtual DOM is like the native DOM but replicated in your computers memory so you can diff it (compare it) with the real DOM and only replace the changed items.
 
-The way that react uses the Virtual DOM is that once you make a change to the state of the component it diffs the Virtual DOM agains the real DOM and determines what has changed and only replaces/adds that to the real DOM which makes it incredibly fast to update.
+The way that react uses the Virtual DOM is that once you make a change to the state of the component it diffs (compares it) the Virtual DOM against the real DOM and determines what has changed and only replaces/adds that to the real DOM which makes it incredibly fast to update.
 
 ## Component architecture
 
