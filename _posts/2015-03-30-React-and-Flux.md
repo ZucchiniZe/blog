@@ -17,8 +17,6 @@ In my opinion, the reason why so many people love using react is how fast it is.
 
 ## The Virtual DOM
 
-The Virtual DOM is like the native DOM but replicated in your computers memory so you can diff it (compare it) with the real DOM and only replace the changed items.
-
 The way that react uses the Virtual DOM is that once you make a change to the state of the component it diffs (compares it) the Virtual DOM against the real DOM and determines what has changed and only replaces/adds that to the real DOM which makes it incredibly fast to update.
 
 ## Component architecture
